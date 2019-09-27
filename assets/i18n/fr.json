@@ -14,17 +14,6 @@
     "street": "Rue",
     "title": "Adresse"
   },
-  "alert": {
-    "action": "Action",
-    "creationDate": "Date",
-    "description": "Description",
-    "list": {
-      "noElement": "Aucune alerte",
-      "search": "Recherche",
-      "title": "Alertes"
-    },
-    "patient": "Patient"
-  },
   "auth": {
     "authenticateByCps": "Authentification carte CPS",
     "changePassword": {
@@ -82,13 +71,11 @@
   },
   "billing": {
     "button": {
-      "export": "Exporter les données de téléexpertise",
-      "exportMonitoring": "Exporter les données de télésurveillance"
+      "export": "Exporter les données de téléexpertise"
     },
     "title": "Facturation"
   },
   "button": {
-    "activateMonitoring": "Sélectionner",
     "back": "Retour",
     "cancel": "Annuler",
     "close": "Fermer",
@@ -98,7 +85,6 @@
     "ok": "OK",
     "previous": "Précédent",
     "submit": "Valider",
-    "uploadFile": "Télécharger un document",
     "validate": "Valider"
   },
   "center": {
@@ -150,42 +136,9 @@
     "publicId": "Identifiant public ",
     "title": "Centre"
   },
-  "chart": {
-    "axis": {
-      "bloodPressure": "Tension",
-      "bmi": "IMC",
-      "range": {
-        "all": "Tous",
-        "half_year": "6 mois",
-        "month": "1 mois",
-        "quarter_year": "3 mois",
-        "year": "1 an"
-      },
-      "weight": "Poids"
-    },
-    "threshold": "Seuils",
-    "tooltip": {
-      "bmi": "IMC",
-      "weight": "Poids"
-    }
-  },
   "common": {
-    "alerts": "Alertes",
     "noNotification": "Aucune notification",
     "notifications": "Notifications"
-  },
-  "configuration": {
-    "learning": {
-      "confirm": {
-        "content": "Les formulaires ont bien été mis à jour",
-        "title": "Mise à jour des formulaires"
-      },
-      "message": "Configuration des formulaires d'apprentissage par centre (le code affiché est le tag à utiliser dans Wordpress pour lier des articles)",
-      "title": "Formulaires d'apprentissage"
-    },
-    "message": {
-      "noChange": "Aucun changement"
-    }
   },
   "error": {
     "noInternet": "Aucune connexion internet",
@@ -206,7 +159,6 @@
   },
   "header": {
     "about": "A propos",
-    "alert": "Télésurveillance: Alertes",
     "backoffice": "Administration",
     "home": "Accueil",
     "login": "Se connecter",
@@ -215,16 +167,14 @@
     "notification": "Adaptation de posologie: Notifications",
     "patient": "Mes patients",
     "register": "Créer un compte",
-    "teleexpertise": "Adaptation de posologie des IS",
-    "telemonitoring": "Télésurveillance"
+    "teleexpertise": "Adaptation de posologie des IS"
   },
   "home": {
     "alert": {
-      "title": "Alertes / Notifications"
+      "title": "Notifications"
     },
     "button": {
       "learnmore": "En savoir plus",
-      "seeAlert": "Voir les alertes",
       "seeRequests": "Voir les demandes"
     },
     "teleexpertise": {
@@ -248,16 +198,10 @@
     "userGuide": "Guide utilisateur"
   },
   "menu": {
-    "activateTelemonitoring": "Initier la télésurveillance",
-    "alertHistory": "Alertes",
     "billing": "Facturation",
     "center": "Centres",
-    "configuration": "Configuration TS",
-    "currentTelemonitoring": "Patient: données télésurveillance",
     "forms": "Formulaires",
     "informationConfiguration": "Liens",
-    "monitoring-delivery": "Télésurveillance",
-    "newPatient": "Nouveau patient",
     "newRequest": "Nouvelle demande",
     "nomenclature": "Nomenclatures",
     "patients": "Patients",
@@ -267,66 +211,7 @@
     "tools": "Temps optimaux",
     "user": "Utilisateurs"
   },
-  "monitoring": {
-    "alert": {
-      "displayManagedAlert": "Afficher les alertes traitées",
-      "message": "Les actions ne sont pas partagées avec le patient."
-    },
-    "button": {
-      "share": "Modifier les professionnels"
-    },
-    "date": "Date",
-    "endDate": "Date de fin",
-    "indication": {
-      "label": "Indication"
-    },
-    "intervenants": {
-      "addButton": "Ajouter un professionnel",
-      "email": "Email pour lui envoyer les information de création de compte",
-      "follower": "Professionnel en charge de l'accompagnement thérapeutique",
-      "monitor": "Médecin en charge de la télésurveillance",
-      "prescriber": "Médecin prescripteur",
-      "removeButton": "Supprimer le professionnel",
-      "rights": "Droits sur le dossier",
-      "sharedUser": "Autre professionnel ayant accès au dossier",
-      "title": "Professionnels de santé impliqués:"
-    },
-    "patient": {
-      "label": "Patient"
-    },
-    "startDate": "Date début",
-    "tab": {
-      "learning": "Apprentissage",
-      "monitoring": "Télésurveillance",
-      "patient": "Patient",
-      "prescription": "Ordonnances",
-      "responsibles": "Professionnels"
-    }
-  },
-  "monitoringDelivery": {
-    "display": {
-      "title": "Télésurveillance"
-    },
-    "equipment": {
-      "label": "Equipement",
-      "sentDate": "Date d'envoi",
-      "serialNumber": "N° série",
-      "toSend": "à envoyer"
-    },
-    "list": {
-      "noElement": "Aucun élement",
-      "search": "Recherche",
-      "title": "Liste des monitoring"
-    }
-  },
   "notification": {
-    "action": {
-      "by": "Traitée le {{date}} par {{by}}",
-      "name": "Action effectuée"
-    },
-    "monitoringAlert": "<b>{{dataType}}</b> de {{patient}} est {{description}} <small>{{thresholds}}</small>: <b>{{dataValue}}</b>",
-    "monitoringEnded": "La télésurveillance de {{patient}} se termine dans moins de 30 jours",
-    "monitoringUnfilledData": "{{patient}} est en retard pour la(es) donnée(s) suivante(s) : <b>{{dataType}}</b>",
     "noData": "Aucun élément",
     "request": {
       "accepted": "Accusé réception de la demande pour le patient \"{{patient}}\" ",
@@ -339,8 +224,7 @@
       "prevalidated": "La demande pour le patient \"{{patient}}\" a été pré-validée",
       "validated": "Les résultats du patient \"{{patient}}\" sont disponibles",
       "waiting_validation": "La demande pour le patient \"{{patient}}\" est en attente de validation"
-    },
-    "uploadedData": "{{patient}} a téléchargé un nouveau rapport d'analyse biologique"
+    }
   },
   "otherIndication": {
     "CYSTIC_FIBROSIS": "Mucoviscidose",
@@ -354,7 +238,6 @@
     },
     "account": {
       "reinit": {
-        "button": "Réinitialisation des identifiants de connexion",
         "content": "Attention, si vous validez les identifiants de connexion du patient seront réinitialisés, il recevra un mail avec son identifiant (email) et un nouveau mot de passe provisoire pour se connecter à son compte.",
         "title": "Réinitialisation des identifiants de connexion"
       }
@@ -365,23 +248,14 @@
       "title": "Informations administratives"
     },
     "attestationDroit": {
-      "download": "Télécharger attestation carte vitale",
-      "label": "Carte vitale"
-    },
-    "biologicaldata": {
-      "alertForNewDataUpload": "Recevoir une notification lorsque le patient partage un rapport d'analyse biologique.",
-      "needAtLeastOneEntry": "Vous devez suivre au moins 1 donnée biologique",
-      "title": "Données biologiques"
+      "download": "Télécharger attestation carte vitale"
     },
     "birthDate": "Date de naissance",
     "birthName": "Nom de naissance",
     "button": {
-      "activateMonitoring": "Initier la télésurveillance",
       "deletePatient": "Suppression définitive du patient",
       "edit": "Modifier les informations patient",
-      "editAlert": "Paramétrage des alertes",
-      "exportData": "Export des données patient",
-      "goToTelemonitoring": "Accéder au dossier de télésurveillance"
+      "exportData": "Export des données patient"
     },
     "center": {
       "choice": {
@@ -389,7 +263,6 @@
       }
     },
     "consent": {
-      "Telemonitoring": "le patient a donné son consentement pour le traitement de ses données personnelles nécessaire à  la télésurveillance",
       "docModel": "Modèle de consentement",
       "teleexpertise": "le patient a donné son consentement pour le traitement de ses données personnelles  nécessaire pour la demande d'adaptation de posologie."
     },
@@ -430,19 +303,7 @@
     "healthInsurance": {
       "codeOrganisation": "Organisme d'affiliation"
     },
-    "height": {
-      "content": "Merci de renseigner ou de modifier (si nécessaire) la taille du patient",
-      "label": "taille en cm",
-      "title": "Taille"
-    },
     "lastName": "Nom usuel",
-    "learning": {
-      "taskTodo": "Tâche(s) à faire",
-      "title": "Accompagnement thérapeutique"
-    },
-    "learningdata": {
-      "title": "Apprentissage"
-    },
     "list": {
       "search": "Recherche",
       "title": "Liste des patients"
@@ -467,106 +328,14 @@
       "removeButton": "Supprimer",
       "title": "Informations médicales"
     },
-    "medicaldata": {
-      "bloodPressure": "Tension",
-      "bmi": "IMC",
-      "noData": "Aucune donnée",
-      "title": "Données cliniques",
-      "weight": "Poids"
-    },
-    "monitoring": {
-      "activate": {
-        "confirm": {
-          "content": "La télésurveillance pour {{patient}} a bien été initiée, le patient recevra le lien pour le téléchargement de l'application sur son email.",
-          "title": "Initier la télésurveillance"
-        },
-        "noRightIndication": {
-          "confirmMessage": "Vous ne pouvez pas initié une télésurveillance pour ce patient car il n'est pas traité pour une indication que vous suivez.",
-          "confirmTitle": "Impossible d'initier une télésurveillance"
-        },
-        "title": "Initier la télésurveillance"
-      },
-      "frequency": {
-        "once": "dans",
-        "unit": "Fréquence",
-        "value": "tous les"
-      },
-      "noData": "Aucune donnée",
-      "noDataFollowed": "Aucune donnée suivie",
-      "ps": {
-        "followers": "Professionnels ayant accès en lecture seule",
-        "responsibles": "Médecins ayant les droits de gestion"
-      },
-      "selectData": "Sélectionner les données que vous souhaitez suivre",
-      "shared": {
-        "title": "Liste des professionnels de santé ayant accès."
-      },
-      "status": {
-        "close": {
-          "button": "Clore",
-          "confirmMessage": "Voulez-vous clôturer la télésurveillance? Les données resteront accessible en lecture seule.",
-          "confirmTitle": "Clôture",
-          "message": "La télésurveillance a été clôturée le {{endDate}}"
-        },
-        "open": {
-          "message": "La télésurveillance se clôturera dans {{closedInXDays}} jour(s)"
-        },
-        "postpone": {
-          "button": "Prolonger",
-          "confirmMessage": "Voulez-vous prolonger la télésurveillance jusqu'au {{newDate}}?",
-          "confirmTitle": "Prolongation"
-        },
-        "reopen": {
-          "button": "Rouvrir",
-          "confirmMessage": "Voulez-vous rouvrir la télésurveillance?",
-          "confirmTitle": "Ré-ouverture"
-        }
-      },
-      "threshold": "Données à suivre et seuils d'alerte"
-    },
     "name": "Patient",
     "nationalId": "Numéro de sécurité sociale ",
     "newPatientButton": "Nouveau patient",
     "phone": "Téléphone",
-    "psychologicaldata": {
-      "noData": "Aucune donnée",
-      "title": "Données psychologiques"
-    },
     "teleexpertise": {
       "displayAll": "Tout afficher",
       "noRequests": "Aucune demande d'adaptation de posologie",
       "title": "Adaptation de posologie"
-    },
-    "telemonitoring": {
-      "noActivated": "La télésurveillance n'a pas encore été activée, cliquez sur le lien suivant si vous souhaitez l'initialiser : ",
-      "title": "Télésurveillance"
-    }
-  },
-  "prescription": {
-    "button": {
-      "delete": "Supprimer l'ordonnance",
-      "show": "Voir l'ordonnance"
-    },
-    "date": "Date",
-    "delete": {
-      "content": "Êtes-vous sûr de vouloir supprimer cette ordonnance?",
-      "title": "Suppression"
-    },
-    "file": {
-      "dragDrop": "Déposer le fichier ici",
-      "or": "ou"
-    },
-    "list": {
-      "noElement": "Aucune ordonnance"
-    },
-    "name": "Nom",
-    "patient": {
-      "message": "Seule la dernière ordonnance est accessible par le patient",
-      "title": "Ordonnance(s) à destination du patient"
-    },
-    "supplier": {
-      "message": "",
-      "title": "Ordonnance(s) à destination d'Optim'Care"
     }
   },
   "register": {
@@ -904,12 +673,6 @@
   "unit": {
     "day": "Jour(s)"
   },
-  "uploadFile": {
-    "error": {
-      "invalidSize": "Le fichier est trop volumineux (taille maximale 1Mo)",
-      "invalidType": "Ce format de fichier n'est pas accepté (format accepté : pdf ou image)"
-    }
-  },
   "user": {
     "administrativeInformation": {
       "title": "Données administratives"
@@ -996,8 +759,7 @@
     },
     "warning": {
       "licenses": {
-        "TELE_EXPERTISE": "Attention ce centre n'est pas validé pour la téléexpertise. Vérifier qu'il est éligible à la téléexpertise.",
-        "TELE_MONITORING": "Attention ce centre n'est pas validé pour la télésurveillance. Ne pas le valider tant que les formalités ne sont pas remplies."
+        "TELE_EXPERTISE": "Attention ce centre n'est pas validé pour la téléexpertise. Vérifier qu'il est éligible à la téléexpertise."
       },
       "noCreatedWithCps": "Attention ce professionnel de santé ne s'est pas authentifié avec sa carte CPS, vérifier la consistance des informations avant de valider.",
       "noFrenchUser": "Merci de vérifier que le demandeur est bien un  Professionnel de santé et vérifier la consistance des informations avant de valider.",
