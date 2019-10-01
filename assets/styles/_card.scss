@@ -12,7 +12,6 @@
     }
   }
 
-
   .mat-card {
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.16);
     background-color: #ffffff;
@@ -157,6 +156,26 @@
       }
     }
 
+  }
+
+  @media #{$lt-sm} {
+    .mat-card {
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+
+      &.small > .mat-card-header {
+        margin: -0.5rem 0rem 0rem 0rem !important;
+        padding: 0.25rem;
+      }
+
+      > .mat-card-header {
+        padding: 0.25rem !important;
+        margin: -0.5rem 0rem 0rem 0rem !important;
+      }
+
+    }
   }
 
   .mat-card.alert {

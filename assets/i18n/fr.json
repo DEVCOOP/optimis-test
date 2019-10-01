@@ -21,7 +21,7 @@
         "askNewLink": "Demande nouveau mot de passe temporaire"
       },
       "confirm": {
-        "content": "Votre nouveau mot de passe a bien été enregistré, vous pouvez à présent vous connecter sur l'application",
+        "content": "Votre nouveau mot de passe a bien été enregistré.",
         "title": "Nouveau mot de passe"
       },
       "title": "Nouveau mot de passe"
@@ -38,7 +38,7 @@
       "title": "Demande de mot de passe"
     },
     "login": "Identifiant (email)",
-    "lostLogin": "Identifiant oublié? Veuillez contacter Optim'Care: admin@optim-care.com",
+    "lostLogin": "Identifiant oublié? Veuillez contacter CHU de Limoges: labo.pharmaco@chu-limoges.fr",
     "otp": {
       "message": "Un mot de passe à usage unique vient de vous être envoyé sur votre email, merci de le saisir pour vous authentifier.",
       "title": "Mot de passe à usage unique"
@@ -143,7 +143,7 @@
   "error": {
     "noInternet": "Aucune connexion internet",
     "noRights": "Vous n'avez pas les droits pour cette action.",
-    "unexpectedError": "Erreur inattendue, merci de contacter Optim'Care si le problème persiste."
+    "unexpectedError": "Erreur inattendue, merci de contacter le CHU de Limoges si le problème persiste."
   },
   "forgotPassword": {
     "confirm": {
@@ -178,14 +178,14 @@
       "seeRequests": "Voir les demandes"
     },
     "teleexpertise": {
-      "content": "Le dispositif médical Optim’IS est un logiciel qui permet aux équipes de soin de demander l'avis des pharmacologues du CHU de Limoges pour définir la posologie optimale des immunosuppresseurs pour un patient. Optim'IS fournit\n<ul>\n <li>L'exposition du patient au médicament estimée avec un nombre limité de prélèvements sanguins</li>\n <li>La courbe de concentration en fonction du temps modélisée </li>\n <li>Une ou un intervalle de dose(s) recommandé par les pharmacologues du CHU de Limoges pour atteindre l'AUC cible .</li>\n</ul>\n\nPour demander accès à ce service, merci de contacter Optim'Care: admin@optim-care.com\n",
+      "content": "Le dispositif médical Optim’IS est un logiciel qui permet aux équipes de soin de demander l'avis des pharmacologues du CHU de Limoges pour définir la posologie optimale des immunosuppresseurs pour un patient. Optim'IS fournit\n<ul>\n <li>L'exposition du patient au médicament estimée avec un nombre limité de prélèvements sanguins</li>\n <li>La courbe de concentration en fonction du temps modélisée </li>\n <li>Une ou un intervalle de dose(s) recommandé par les pharmacologues du CHU de Limoges pour atteindre l'AUC cible .</li>\n</ul>\n\nPour demander accès à ce service, merci de contacter le CHU de Limoges: labo.pharmaco@chu-limoges.fr\n",
       "title": "Adaptation de posologie des immunosuppresseurs"
     },
     "telemonitoring": {
-      "content": "Le dispositif médical Optim’HomeCare est une solution de télésurveillance qui permet aux équipes de soins de suivre leurs patients de manière totalement personnalisée à domicile :\n<ul>\n   <li>Suivi des données cliniques, biologiques, physiques et psychologiques.</li>\n <li>Personnalisation des données à suivre, de leur fréquence et des seuils d'alertes.</li>\n   <li>Outils pratiques et pédagogiques pour les patients.</li>\n</ul>\nPour demander accès à ce service, merci de contacter Optim'Care: admin@optim-care.com\n",
+      "content": "Le dispositif médical Optim’HomeCare est une solution de télésurveillance qui permet aux équipes de soins de suivre leurs patients de manière totalement personnalisée à domicile :\n<ul>\n   <li>Suivi des données cliniques, biologiques, physiques et psychologiques.</li>\n <li>Personnalisation des données à suivre, de leur fréquence et des seuils d'alertes.</li>\n   <li>Outils pratiques et pédagogiques pour les patients.</li>\n</ul>\nPour demander accès à ce service, merci de contacter le CHU de Limoges: labo.pharmaco@chu-limoges.fr\n",
       "title": "Télésurveillance médicale"
     },
-    "welcome": "Bienvenue sur la plateforme Optim’Care"
+    "welcome": "Bienvenue sur la plateforme ABIS 3.0"
   },
   "informationConfiguration": {
     "ceMarking": "A propos",
@@ -219,7 +219,7 @@
       "complex": "Vous avez reçu une demande complexe pour le Patient \"{{patient}}\" ",
       "information": "Vous avez reçu une demande d'informations complémentaires  pour le patient \"{{patient}}\" ",
       "information_post_validation": "Vous avez reçu un message concernant les résultats du patient \"{{patient}}\"",
-      "new_complex": "La demande du patient \"{{patient}}\" est passée au statut complexe  ",
+      "new_complex": "Nouvelle demande complexe pour le patient \"{{patient}}\"",
       "new_waiting_validation": "Nouvelle demande pour le patient \"{{patient}}\"",
       "prevalidated": "La demande pour le patient \"{{patient}}\" a été pré-validée",
       "validated": "Les résultats du patient \"{{patient}}\" sont disponibles",
@@ -263,7 +263,6 @@
       }
     },
     "consent": {
-      "docModel": "Modèle de consentement",
       "teleexpertise": "le patient a donné son consentement pour le traitement de ses données personnelles  nécessaire pour la demande d'adaptation de posologie."
     },
     "create": {
@@ -525,6 +524,11 @@
       },
       "title": "Historique des évènements"
     },
+    "filter": {
+      "closed": "Terminée",
+      "label": "Etat",
+      "running": "En cours"
+    },
     "history": {
       "title": "Historique des demandes pour ce patient"
     },
@@ -732,7 +736,7 @@
     "nationalId": "Identifiant national",
     "phone": "Téléphone",
     "profil": {
-      "contactAdmin": "Pour les modifications autres que les emails, merci de contacter Optim'Care : admin@optim-care.com"
+      "contactAdmin": "Pour les modifications autres que les emails, merci de contacter le CHU de Limoges : labo.pharmaco@chu-limoges.fr"
     },
     "rights": {
       "title": "Rôles"
@@ -773,7 +777,7 @@
     "title": "Nomenclature"
   },
   "welcome": {
-    "content": "Optim’Care développe une plateforme unique, évolutive et sur-mesure intégrant différentes solutions de e-santé pour les patients transplantés et les professionnels de santé impliqués dans leur suivi.  <br/><br/>Parce que la sécurité des patients et la protection de leurs données font partie de nos engagements, Optim’Care garantit une fiabilité optimale de ses solutions.",
-    "title": "<b>Bienvenue sur la<br/>plateforme</b> Optim'Care"
+    "content": "Le CHU de Limoges développe une plateforme unique, évolutive et sur-mesure intégrant différentes solutions de e-santé pour les patients transplantés et les professionnels de santé impliqués dans leur suivi.  <br/><br/>Parce que la sécurité des patients et la protection de leurs données font partie de nos engagements, le CHU de Limoges garantit une fiabilité optimale de ses solutions.",
+    "title": "<b>Bienvenue sur la<br/>plateforme</b> ABIS 3.0"
   }
 }

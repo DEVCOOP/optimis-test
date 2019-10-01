@@ -38,7 +38,7 @@
       "title": "Reset your password"
     },
     "login": "Id (email)",
-    "lostLogin": "Forgot ID? Please contact Optim'Care admin@optim-care.com",
+    "lostLogin": "Forgot ID? Please contact CHU de Limoges labo.pharmaco@chu-limoges.fr",
     "otp": {
       "message": "A One Time Password has been sent to your email adress, please enter it for authentication.",
       "title": "One Time Password"
@@ -143,7 +143,7 @@
   "error": {
     "noInternet": "No internet access",
     "noRights": "You don't have the rights for this action.",
-    "unexpectedError": "An unexpected error occurred, please do contact Optim'Care if the problem occurs again."
+    "unexpectedError": "An unexpected error occurred, please do contact CHU de Limoges if the problem occurs again."
   },
   "forgotPassword": {
     "confirm": {
@@ -178,14 +178,14 @@
       "seeRequests": "More requests"
     },
     "teleexpertise": {
-      "content": "The Medical Device Optim'IS is a software that allows the care team to request an expertise from Limoges Hospital Pharmacologists to define the optimal dosage for a patient. It provides\n<ul>\n <li>Calculation of the patient exposure to the drug (AUC) estimated with a limiter number of blood sampling using Bayesian estimators.</li>\n<li>Modeled concentration–time curve</li>\n</li>one or a range of dose(s) recommended by Limoges Hospital Experts to reach the AUC target </li>\n\nTo request access to this service, please contact Optim'Care: admin@optim-care.com\n",
+      "content": "The Medical Device Optim'IS is a software that allows the care team to request an expertise from Limoges Hospital Pharmacologists to define the optimal dosage for a patient. It provides\n<ul>\n <li>Calculation of the patient exposure to the drug (AUC) estimated with a limiter number of blood sampling using Bayesian estimators.</li>\n<li>Modeled concentration–time curve</li>\n</li>one or a range of dose(s) recommended by Limoges Hospital Experts to reach the AUC target </li>\n\nTo request access to this service, please contact CHU de Limoges: labo.pharmaco@chu-limoges.fr\n",
       "title": "Immunosuppressants dose adjustment"
     },
     "telemonitoring": {
-      "content": "The medical Device Optim'HomeCare is a telemonitoring solution to allow care team to monitor their patients at distance:\n<ul>\n   <li>Clinical, biological and psychological monitoring.</li>\n <li> Personalization of data to monitor, their frequency and of alerts thresholds .</li>\n   <li>Patients application includes practical and educational tools </li>\n</ul>\nTo request access to this service, please contact Optim'Care: admin@optim-care.com\n",
+      "content": "The medical Device Optim'HomeCare is a telemonitoring solution to allow care team to monitor their patients at distance:\n<ul>\n   <li>Clinical, biological and psychological monitoring.</li>\n <li> Personalization of data to monitor, their frequency and of alerts thresholds .</li>\n   <li>Patients application includes practical and educational tools </li>\n</ul>\nTo request access to this service, please contact CHU de Limoges: labo.pharmaco@chu-limoges.fr\n",
       "title": "Telemonitoring"
     },
-    "welcome": "Welcome "
+    "welcome": "Welcome on ISBA 3.0"
   },
   "informationConfiguration": {
     "ceMarking": "About our platform",
@@ -219,7 +219,7 @@
       "complex": "You have received a complex request for Patient \"{{patient}}\" ",
       "information": "You have received a request for additional information for the patient {{patient}}\" ",
       "information_post_validation": "You have received a request a message on patient {{patient}}\" ' results",
-      "new_complex": "The request for patient \"{{patient}}\" became a complex request",
+      "new_complex": "New complex request for patient \"{{patient}}\"",
       "new_waiting_validation": "New request for patient  \"{{patient}}",
       "prevalidated": "The request for patient  \"{{patient}}\" has been pre-validated",
       "validated": "Patient  \"{{patient}}\" results are available",
@@ -263,7 +263,6 @@
       }
     },
     "consent": {
-      "docModel": "Consent template",
       "teleexpertise": "Patient has given his/her consent for the processing of his/her personal data needed for dose adaptation request."
     },
     "create": {
@@ -525,6 +524,11 @@
       },
       "title": "History of events on the request"
     },
+    "filter": {
+      "closed": "Closed",
+      "label": "State",
+      "running": "Running"
+    },
     "history": {
       "title": "History of requests for this patient"
     },
@@ -732,7 +736,7 @@
     "nationalId": "National ID",
     "phone": "Phone number",
     "profil": {
-      "contactAdmin": "For a modification other than on emails, please do contact Optim'Care : admin@optim-care.com"
+      "contactAdmin": "For a modification other than on emails, please do contact CHU de Limoges : labo.pharmaco@chu-limoges.fr"
     },
     "rights": {
       "title": "Rights"
@@ -773,7 +777,7 @@
     "title": "Nomenclature"
   },
   "welcome": {
-    "content": "Optim’Care has developed a unique, scalable and tailor-made platform that includes various e-health solutions for transplant patients and the health professionals in charge of their care.<br/><br/> As we are committed to patients safety and data protection, the solutions proposed by Optim’Care guarantee optimal reliability.",
-    "title": "<b>Welcome on<br/>Optim'Care</b> platform"
+    "content": "CHU de Limoges has developed a unique, scalable and tailor-made platform that includes various e-health solutions for transplant patients and the health professionals in charge of their care.<br/><br/> As we are committed to patients safety and data protection, the solutions proposed by CHU de Limoges guarantee optimal reliability.",
+    "title": "<b>Welcome on<br/>ISBA 3.0</b> platform"
   }
 }
