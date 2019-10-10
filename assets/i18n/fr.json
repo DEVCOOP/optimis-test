@@ -463,7 +463,7 @@
 			"title": "Clore la demande"
 		},
 		"closed": {
-			"title": "La demande a été clôturée"
+			"title": "La demande a été rejetée"
 		},
 		"comments": {
 			"noComment": "Aucun commentaire",
@@ -525,7 +525,7 @@
 			"title": "Historique des évènements"
 		},
 		"filter": {
-			"status": "Afficher demandes clôturées et acquittées",
+			"status": "Afficher les demandes acquittées et rejetées",
 			"year": "Année : "
 		},
 		"history": {
