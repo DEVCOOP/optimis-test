@@ -665,6 +665,16 @@
 			"title": "Update of FINESS Repertory",
 			"url": ""
 		},
+		"psInfo": {
+			"confirm": {
+				"content": "",
+				"title": ""
+			},
+			"explain": "",
+			"filename": "",
+			"title": "",
+			"url": ""
+		},
 		"title": ""
 	},
 	"tools": {

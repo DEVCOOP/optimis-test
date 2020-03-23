@@ -665,6 +665,17 @@
 			"title": "Mise à jour annuaire Finess",
 			"url": "Url"
 		},
+		"psInfo": {
+			"confirm": {
+				"content": "L'annuaire des PS a bien été mis à jour",
+				"title": "Mise à jour annuaire PS"
+			},
+			"explain": "Pour mettre à jour l'annuaire, il faut récupérer l'url sur le site annuaire santé (https://annuaire.sante.fr/web/site-pro/extractions-publiques) pour l'extraction cat18_toutepopulation, et précisez le début nom du fichier à extraire dans le zip ",
+			"explain2": "Attention ceci prend plusieurs minutes",
+			"filename": "Début du nom du fichier à extraire",
+			"title": "Mise à jour annuaire PS",
+			"url": "Url"
+		},
 		"title": "Paramètres"
 	},
 	"tools": {
