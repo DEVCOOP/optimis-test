@@ -414,10 +414,10 @@
 			"endTreatment": "End of the perfusion",
 			"samples": {
 				"concentration": "Concentration",
-				"intervalDoseSampling": "interval between the dose and the sampling",
+				"intervalDoseSampling": "Time interval between dosing and sample collection",
 				"optimalDose": "Optimal Time",
 				"optimalDoseSampling": "Optimal Sampling Time",
-				"realSamplingTime": "real sampling time",
+				"realSamplingTime": "Precise sampling time",
 				"warning": {
 					"concentration": {
 						"minmax": "Please check this concentration"
@@ -493,7 +493,7 @@
 			"samplingStepTitle": "Information about blood sample collection",
 			"treatmentStepTitle": "Treatments"
 		},
-		"creationDate": "Date of creation",
+		"creationDate": "Date of request filing",
 		"draft": {
 			"confirm": {
 				"content": "The request has been saved as a draft",
@@ -590,11 +590,11 @@
 		},
 		"requester": "Requester",
 		"result": {
-			"AUC": "AUC (0-{{hour}}h) estimated by Bayesian method",
+			"AUC": "AUC (0-{{hour}}h) Bayesian estimate",
 			"best": "Best result",
-			"cMax": "C max estimated by bayesian method",
+			"cMax": "Cmax (Bayesian estimate)",
 			"compare": "Comparison of results",
-			"delai": "Post transplant/1st IS prescription period",
+			"delai": "Time elapsed between transplantation and request",
 			"inputData": {
 				"description": "Description",
 				"title": "Data used for the calculation"
@@ -606,12 +606,12 @@
 			"noResult": "No result",
 			"numberOfTakens": "Number of intakes per day",
 			"popName": "population",
-			"posologyActual": "Actual dose (per intake)",
+			"posologyActual": "Current dose (per intake)",
 			"posologyEstimate": "Recommended dose for a target AUC of {{value}}",
-			"posologyTarget1": "1- Co target {{value}}",
+			"posologyTarget1": "1- CO target {{value}}",
 			"posologyTarget2": "2- Corresponding targeted AUCs",
-			"posologyTarget3": "3- Recommended doses for these targets",
-			"tauxResiduel": "Residual rate estimated by Bayesian Method",
+			"posologyTarget3": "3- Recommended doses to reach these targets",
+			"tauxResiduel": "Trough level (Bayesian estimate)",
 			"title": "Results",
 			"validatedby": "Results validated by"
 		},
@@ -629,11 +629,11 @@
 		},
 		"status": "Status",
 		"treatment": {
-			"administrationRoute": "Rout of administration/form",
-			"coTreatments": "Other treatment",
+			"administrationRoute": "Route of administration/formulation",
+			"coTreatments": "Other treatments",
 			"comment": "Please specify",
 			"doses": "Dose",
-			"drug": "Treatment",
+			"drug": "Drug to be adjusted",
 			"drugCommercialName": "Specialty",
 			"numberOfTakes": "Number of intakes per day",
 			"warning": {
