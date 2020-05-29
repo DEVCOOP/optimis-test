@@ -608,7 +608,7 @@
 			"popName": "population",
 			"posologyActual": "Current dose (per intake)",
 			"posologyEstimate": "Recommended dose for a target AUC of {{value}}",
-			"posologyTarget1": "1- CO target {{value}}",
+			"posologyTarget1": "1- C0 target {{value}}",
 			"posologyTarget2": "2- Corresponding targeted AUCs",
 			"posologyTarget3": "3- Recommended doses to reach these targets",
 			"tauxResiduel": "Trough level (Bayesian estimate)",
