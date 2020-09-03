@@ -625,6 +625,7 @@
 			"title": "Prélèvements"
 		},
 		"selectPopulation": {
+			"forDrug": "Voir toutes les populations liées au médicament",
 			"populations": "Populations"
 		},
 		"status": "Statut",

@@ -625,6 +625,7 @@
 			"title": "Samplings"
 		},
 		"selectPopulation": {
+			"forDrug": "See all drug related models",
 			"populations": "Model"
 		},
 		"status": "Status",
@@ -671,6 +672,7 @@
 				"title": ""
 			},
 			"explain": "",
+			"explain2": "",
 			"filename": "",
 			"title": "",
 			"url": ""
